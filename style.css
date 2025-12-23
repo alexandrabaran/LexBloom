@@ -1,0 +1,104 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f0fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #ffffff;
+  padding: 2rem;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(155, 93, 229, 0.15); /* sombra violeta suave */
+  text-align: center;
+  flex: 0 0 280px;
+}
+
+.word {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #4c1d95; /* violeta oscuro */
+}
+
+.translation {
+  color: #6b21a8; /* violeta medio */
+  margin-bottom: 0.25rem;
+}
+
+.category {
+  font-size: 0.8rem;
+  color: #7e22ce; /* violeta más suave */
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #9b5de5;
+  color: white;
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button:hover {
+  background-color: #7c3aed;
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(124, 58, 237, 0.15) inset;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(155, 93, 229, 0.35);
+}
+
+.ipa {
+  font-size: 1.05rem;
+  color: #6d28d9;
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+.app {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.ipa-panels {
+  display: flex;
+  gap: 1rem;
+}
+
+.ipa-box {
+  background: #f0ebfa;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 150px;
+}
+
+.ipa-box h4 {
+  margin: 0 0 0.3rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: #5b21b6;
+}
+
+.ipa-box table {
+  width: 100%;
+}
+
+.ipa-box td {
+  font-size: 0.75rem;
+  padding: 0.1rem 0.2rem;
+  text-align: center;
+  color: #4c1d95;
+}
