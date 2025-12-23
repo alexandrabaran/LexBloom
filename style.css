@@ -116,7 +116,7 @@ button:focus {
 
 /* Responsive mobile */
 @media (max-width: 768px) {
- body {display: block;}
+ body {display: block;} 
 
   .app {
     flex-direction: column;
